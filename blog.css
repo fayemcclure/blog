@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #473144;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Lora', serif;
+    color: #473144;
+}
+h2, h3 {
+    font-family: 'Lora', serif;
+    color: #AF1B3F;
+}
+a {
+    color: #AF1B3F;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 1rem;
+    text-align:center;
+}
+nav {
+    border-top: 1px solid #EFC69B;
+    border-bottom: 1px solid #EFC69B;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav a {
+    font-weight: bold;
+    text-align: right;
+}
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+article {
+    border-bottom: 1px solid #EFC69B;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin: 1rem 0;
+}
+footer {
+    background-color: #EFC69B;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.main-nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.filters {
+    background-color: #fff;
+    border: 1px solid #EFC69B;
+    padding 1rem;
+    height: 100%;
+    box-sizing: brder-box;
+    grid-row: span 2;
+}
+.book-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+}
+.book-details {
+    font-size: 0.9rem;
+    color: #473144;
+    border-right: 1px solid #EFC69B;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+.book-content {
+    text-align: center
+}
+.book-content h2 {
+    margin-top: 0;
+}
+.skiptocontent a {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #EFC69B;
+}
+.skiptocontent a:focus {
+    top: 0;
+}
